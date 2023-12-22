@@ -1,0 +1,53 @@
+.home {
+  margin-bottom: 170px;
+}
+
+.desc {
+  color: rgb(83, 223, 163);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.intro {
+  margin-top: 25%;
+  color: white;
+  font-size: 45px;
+}
+.name {
+  margin-top: 250px;
+  font-size: 60px;
+}
+
+.name_container {
+  display: flex;
+  width: 80%;
+  background-color: aqua;
+}
+
+.box {
+  display: flex;
+  height: 15rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.box h1,
+p {
+  padding: 5px;
+  text-align: center;
+}
+.btn {
+  border-radius: 2px;
+  width: 150px;
+  padding: 10px;
+  background-color: rgb(83, 223, 163);
+  color: black;
+  border: none;
+  margin-bottom: 15px;
+}
+.btn:hover {
+  background-color: rgba(20, 28, 39, 255);
+  color: white;
+}

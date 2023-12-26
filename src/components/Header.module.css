@@ -27,7 +27,8 @@ ul {
   font-size: 100%;
   margin-left: 5%;
   display: flex;
-  margin-right: 20%;
+  margin-right: 18%;
+  margin-left: 20%;
 }
 .second_name {
   color: rgb(83, 223, 163);

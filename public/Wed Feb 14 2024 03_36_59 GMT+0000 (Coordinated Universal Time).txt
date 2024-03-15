@@ -1,0 +1,1 @@
+[{"id":3,"expenseAmount":1500,"description":"petrol","category":"Fuel","createdAt":"2024-02-14T03:36:40.000Z","updatedAt":"2024-02-14T03:36:40.000Z","UserId":1}]

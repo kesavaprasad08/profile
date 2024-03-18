@@ -1,5 +1,4 @@
 .nav {
-  display: flex;
   background-color: rgba(20, 28, 39, 255);
   list-style: none;
   display: flex;
@@ -104,3 +103,4 @@ ul {
 .dropdown:hover .dropdown_content {
   display: block;
 }
+

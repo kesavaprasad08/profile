@@ -4,6 +4,7 @@ import { useState } from "react";
 const Header = () => {
   const [showLinks, setShowLinks] = useState(false);
 
+
   let resizeHandler = () => {
     if (!showLinks && window.innerWidth > 729)  {
       setShowLinks(true);
@@ -48,11 +49,11 @@ const Header = () => {
   </div>
 </div>)
   return (
-    <section id="Header" className={Classes.header}>
+    <section id="Header" >
       <nav>
-        <ul className={Classes.nav}>
-          <li className={Classes.name}>
-            <p>KESAVA</p> <p className={Classes.second_name}>PRASAD</p>
+        <ul className="flex bg-navGreen	p-2 items-center justify-center fixed w-full ">
+          <li className='flex content-center mr-60 text-white ml-8/12'>
+            <p className=''>KESAVA</p> <p className={Classes.second_name}>PRASAD</p>
           </li>
           {showLinks  && desktop}
           {!showLinks  && mobile}

@@ -53,7 +53,7 @@ const MyProjects = () => {
         />
       </div>
 
-      <div className="w-11/12 md:w-9/12  bg-navGreen rounded shadow p-8 flex flex-col lg:flex-row flex-wrap justify-between">
+      <div className="w-11/12 md:w-9/12 mt-5 bg-navGreen rounded shadow p-8 flex flex-col lg:flex-row flex-wrap justify-between">
         <div className="lg:w-2/3 flex flex-col flex-wrap">
           <p className="text-white text-3xl mb-3 font-bold">Mail-Box Client</p>
           <img

@@ -1,21 +1,17 @@
 import "./App.css";
-
-import Header from "./components/Header";
+import GetInTouch from "./components/GetInTouch";
+import Header from "./components/Header/Header";
 import Home from "./components/Home";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Portfolio from "./components/Portfolio";
-import ContactMe from "./components/ContactMe";
-
+import MyProjects from "./components/MyProjects";
+import TechStack from "./components/TechStack";
 function App() {
   return (
-    <div className="App">
+    <div className="bg-pageGreen text-white">
       <Header />
       <Home />
-      <About />
-      <Skills />
-      <Portfolio />
-      <ContactMe />
+      <TechStack />
+      <MyProjects />
+      <GetInTouch />
     </div>
   );
 }

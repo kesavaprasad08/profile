@@ -6,6 +6,52 @@ const MyProjects = () => {
   return (
     <div className="flex flex-col items-center  p-5 pt-32" id="myProjects">
       <p className="text-white text-3xl mb-10">My Projects</p>
+      
+      <div className="w-11/12 md:w-9/12  bg-navGreen rounded shadow p-5 flex flex-col lg:flex-row flex-wrap justify-between mt-5">
+      
+        <div className="lg:w-2/3 flex flex-col ">
+          <p className="text-white text-3xl mb-3 font-bold">Group Chat Application</p>
+          <img
+          src={groupChatImage}
+          className="bg-green-500 w-48 h-48 rounded my-3 lg:hidden self-center"
+          alt="groupChat"
+        />
+          <p>
+            Users can create group, add other users and send and receive messages
+          </p>
+          <ul className="list-disc ml-4 mt-4 mb-4">
+            <li>Node js as backend</li>
+            <li>Implemented Data storage and authentication with MySQL database</li>
+            <li>Seamless data transmission with socket io</li>
+          </ul>
+          <div className="flex mt-2 mb-4 flex-wrap">
+            <p className="bg-blue-500 p-2 rounded-2xl text-xs m-2">HTML</p>
+            <p className="bg-blue-500 p-2 rounded-2xl text-xs m-2">Node Js</p>
+            <p className="bg-blue-500 p-2 rounded-2xl text-xs m-2">Tailwind css</p>
+            <p className="bg-blue-500 p-2 rounded-2xl text-xs m-2">Express Js</p>
+            <p className="bg-blue-500 p-2 rounded-2xl text-xs m-2">MySQL</p>        
+            <p className="bg-blue-500 p-2 rounded-2xl text-xs m-2">Socket</p>
+            <p className="bg-blue-500 p-2 rounded-2xl text-xs m-2">Aws</p>            
+          </div>
+          <div className="mt-2">
+            <a href="http://34.229.138.78:3000" target="_blank" rel="noopener noreferrer" className="lg:p-2">
+              <button className="bg-green-500 p-2 hover:bg-green-300 rounded">
+                Live App
+              </button>
+            </a>
+              <a href="https://github.com/kesavaprasad08/Group-Chat-App" target="_blank" rel="noopener noreferrer"  className="lg:p-2 pl-2">
+                <button className="bg-green-500 p-2 hover:bg-green-300 rounded">
+                  Github Repository
+                </button>
+              </a>
+          </div>
+        </div>
+        <img
+          src={groupChatImage}
+          className="hidden lg:flex bg-green-500 w-48 h-48 rounded"
+          alt="mailBox"
+        />
+      </div>
 
       <div className="w-11/12 md:w-9/12  bg-navGreen rounded shadow p-8 flex flex-col lg:flex-row flex-wrap justify-between">
         <div className="lg:w-2/3 flex flex-col flex-wrap">
@@ -105,51 +151,6 @@ const MyProjects = () => {
         />
       </div>
 
-      <div className="w-11/12 md:w-9/12  bg-navGreen rounded shadow p-5 flex flex-col lg:flex-row flex-wrap justify-between mt-5">
-      
-        <div className="lg:w-2/3 flex flex-col ">
-          <p className="text-white text-3xl mb-3 font-bold">Group Chat Application</p>
-          <img
-          src={groupChatImage}
-          className="bg-green-500 w-48 h-48 rounded my-3 lg:hidden self-center"
-          alt="groupChat"
-        />
-          <p>
-            Users can create group, add other users and send and receive messages
-          </p>
-          <ul className="list-disc ml-4 mt-4 mb-4">
-            <li>Node js as backend</li>
-            <li>Implemented Data storage and authentication with MySQL database</li>
-            <li>Seamless data transmission with socket io</li>
-          </ul>
-          <div className="flex mt-2 mb-4 flex-wrap">
-            <p className="bg-blue-500 p-2 rounded-2xl text-xs m-2">HTML</p>
-            <p className="bg-blue-500 p-2 rounded-2xl text-xs m-2">Node Js</p>
-            <p className="bg-blue-500 p-2 rounded-2xl text-xs m-2">Tailwind css</p>
-            <p className="bg-blue-500 p-2 rounded-2xl text-xs m-2">Express Js</p>
-            <p className="bg-blue-500 p-2 rounded-2xl text-xs m-2">MySQL</p>        
-            <p className="bg-blue-500 p-2 rounded-2xl text-xs m-2">Socket</p>
-            <p className="bg-blue-500 p-2 rounded-2xl text-xs m-2">Aws</p>            
-          </div>
-          <div className="mt-2">
-            <a href="http://34.229.138.78:3000" target="_blank" rel="noopener noreferrer" className="lg:p-2">
-              <button className="bg-green-500 p-2 hover:bg-green-300 rounded">
-                Live App
-              </button>
-            </a>
-              <a href="https://github.com/kesavaprasad08/Group-Chat-App" target="_blank" rel="noopener noreferrer"  className="lg:p-2 pl-2">
-                <button className="bg-green-500 p-2 hover:bg-green-300 rounded">
-                  Github Repository
-                </button>
-              </a>
-          </div>
-        </div>
-        <img
-          src={groupChatImage}
-          className="hidden lg:flex bg-green-500 w-48 h-48 rounded"
-          alt="mailBox"
-        />
-      </div>
     </div>
   );
 };

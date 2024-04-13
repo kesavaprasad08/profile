@@ -1,5 +1,4 @@
 const Header = () => {
-
   const toggleHandler = () => {
     const dropdown = document.getElementById("drpDwn");
     dropdown.classList.toggle("hidden");
@@ -13,7 +12,6 @@ const Header = () => {
           <span className="text-green-500 text-2xl"> PRASAD</span>
         </p>
         <ul className="hidden lg:flex pr-20 text-white">
-          
           <li className="ml-5 hover:text-green-500">
             <a href="#skills">Skills </a>
           </li>
@@ -24,7 +22,11 @@ const Header = () => {
             <a href="#contact">Contact </a>
           </li>
         </ul>
-        <button className="lg:hidden text-white mr-5 text-2xl " id="toggleBtn" onClick={toggleHandler}>
+        <button
+          className="lg:hidden text-white mr-5 text-2xl "
+          id="toggleBtn"
+          onClick={toggleHandler}
+        >
           ☰<i className="fa fa-caret-down"></i>
         </button>
       </div>
@@ -32,7 +34,6 @@ const Header = () => {
         className=" sticky lg:hidden w-full bg-navGreen flex flex-col items-center text-white p-2 hidden"
         id="drpDwn"
       >
-        
         <li className="ml-3 mt-3 hover:text-green-500 w-full text-center p-1">
           <a href="#skills">Skills </a>
         </li>

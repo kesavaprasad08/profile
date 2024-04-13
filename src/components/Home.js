@@ -1,5 +1,4 @@
-
-import { TypeAnimation } from "react-type-animation"; 
+import { TypeAnimation } from "react-type-animation";
 const Home = () => {
   return (
     <section
@@ -15,32 +14,25 @@ const Home = () => {
         <p className="text-2 xl lg:text-4xl pl-2 ">Hi, I'm </p>
         <h1 className="text-2xl lg:text-5xl pl-2 ">KESAVA PRASAD</h1>
         <TypeAnimation
-        className="text-1xl p-2 text-green-500"
-      sequence={[
-        // Same substring at the start will only be typed out once, initially
-         // wait 1s before replacing "Mice" with "Hamsters"
-         'Full Stack Developer',
-        5000,
-        'React Js',
-        1000,
-        'Node Js',
-        1000,
-        'Express Js',
-        1000,        
-        'MongoDb',
-        1000,
-        'MYSQL',
-        700,
-       
-        
-      ]}
-      wrapper="span"
-      speed={25}
-      
-      repeat={Infinity}
-    />
-    
-        {/* <p className="text-2xl p-2 text-green-500"> Web Developer</p> */}
+          className="text-1xl p-2 text-green-500"
+          sequence={[
+            "Full Stack Developer",
+            5000,
+            "React Js",
+            1000,
+            "Node Js",
+            1000,
+            "Express Js",
+            1000,
+            "MongoDb",
+            1000,
+            "MYSQL",
+            700,
+          ]}
+          wrapper="span"
+          speed={25}
+          repeat={Infinity}
+        />
         <p className=" pt- pb-5 p-2  ">
           Full Stack Web Developer specialized in MERN Stack adept at building
           responsive web applications. Passionate about Learning new
@@ -48,10 +40,11 @@ const Home = () => {
           to build efficient and robust applications suited to the user's needs.
         </p>
         <div>
-          <a href="#myProjects" className="bg-green-500 p-2 hover:bg-green-300 mr-2 ">
-            
-              View My Works
-            
+          <a
+            href="#myProjects"
+            className="bg-green-500 p-2 hover:bg-green-300 mr-2 "
+          >
+            View My Works
           </a>
           <a
             href="https://drive.google.com/file/d/13K8uc9tgvyvZqesnmBEJmrfbWqS9SOa8/view?usp=sharing"

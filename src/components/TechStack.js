@@ -13,7 +13,10 @@ import { FaAws } from "react-icons/fa";
 
 const TechStack = () => {
   return (
-    <div className="m-4  text-white flex flex-col items-center text-center pt-16" id='skills'>
+    <div
+      className="m-4  text-white flex flex-col items-center text-center pt-16"
+      id="skills"
+    >
       <p className="text-white text-3xl mb-10"> My Tech Stack</p>
       <ul className="flex  flex-wrap lg:w-5/12 mt-5 justify-center col-start-2 pl-5">
         <li className="pr-10  pb-5 hover:scale-110">

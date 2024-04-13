@@ -10,6 +10,7 @@ import { SiRedux } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
+
 const TechStack = () => {
   return (
     <div
